@@ -1,0 +1,25 @@
+@import "./fonts.css";
+@import "tailwindcss";
+@import "./theme.css";
+@import "./base.css";
+
+@layer base {
+
+  body {
+    background-image: var(--image-bg-main);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: var(--font-primary);
+  }
+}
+
+@utility icon-mask {
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: var(--icon-path);
+  -webkit-mask-image: var(--icon-path);
+}
