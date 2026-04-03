@@ -6,11 +6,11 @@ export default function Viewer({ data }) {
     <div className="relative flex flex-col md:flex-row items-center justify-end gap-12 md:gap-0">
 
       {/* بخش متن - عرض ۵۰ درصد در دسکتاپ */}
-      <div className="absolute left-0 top-[146px] flex justify-center md:justify-start z-10">
+      <div className="absolute left-0 top-[166px] flex justify-center md:justify-start z-10">
         <Details data={data} />
       </div>
       {/* بخش تصویر - عرض ۵۰ درصد در دسکتاپ */}
-      <div className="w-[480px] ">
+      <div className="w-[538px] ">
         <Frame src={data.image} alt={data.name} />
       </div>
     </div>

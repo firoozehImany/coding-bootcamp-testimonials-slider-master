@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <main className="w-full flex items-center justify-center bg-white">
-      <div className="md:w-[985px] mt-[100px]">
+      <div className="md:w-[1100px] mt-[110px]">
         <Viewer data={currentSlide} />
       </div>
     </main>
