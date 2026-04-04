@@ -6,7 +6,7 @@
 @layer base {
 
   body {
-    background-image: var(--image-bg-main);
+    background-color: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: var(--font-primary);

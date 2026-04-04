@@ -4,13 +4,13 @@ export default function Background() {
       <img 
         src="/images/pattern-quotes.svg" 
         alt="" 
-        className="absolute top-[220px] left-64"
+        className="absolute top-[218px] left-64"
       />
 
       <img 
         src="/images/pattern-bg.svg" 
         alt="" 
-        className="absolute top-11 right-18" 
+        className="absolute top-[50px] right-18" 
       />
       <img 
         src="/images/pattern-curve.svg" 

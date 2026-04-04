@@ -12,7 +12,7 @@ const { currentIndex, handleNext, handlePrev } = useSlider(SLIDES_DATA.length);
       <div className="md:w-[1094px] mt-[113px]">
         <Viewer data={currentSlide} />
       </div>
-      <div className='absolute z-10 bottom-30 right-[524px]'>
+      <div className='absolute z-10 bottom-[110px] right-[528px]'>
         <Controls onNext={handleNext} onPrev={handlePrev} />
       </div>
       <div>
