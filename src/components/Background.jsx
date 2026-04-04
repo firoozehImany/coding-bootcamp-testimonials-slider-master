@@ -4,7 +4,7 @@ export default function Background() {
       <img 
         src="/images/pattern-quotes.svg" 
         alt="" 
-        className="absolute top-[216px] left-64"
+        className="absolute top-[217px] left-64"
       />
 
       <img 
