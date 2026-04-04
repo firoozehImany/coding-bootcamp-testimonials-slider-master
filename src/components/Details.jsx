@@ -6,7 +6,7 @@ export default function Details({ data }) {
         “ {feedback} ”
       </p>
       <div className="flex items-center gap-2 text-[20px] tracking-[0.2px]">
-        <h2 className="text-text-primary font-bold">{name}</h2>
+        <div className="text-text-primary font-bold">{name}</div>
         <span className="text-text-secondary">{role}</span>
       </div>
     </article>
