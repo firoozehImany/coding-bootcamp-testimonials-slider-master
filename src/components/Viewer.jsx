@@ -10,7 +10,7 @@ export default function Viewer({ data }) {
         <Details data={data} />
       </div>
       {/* بخش تصویر - عرض ۵۰ درصد در دسکتاپ */}
-      <div className="w-[534px] ">
+      <div className="w-[536px] ">
         <Frame src={data.image} alt={data.name} />
       </div>
     </div>
