@@ -8,7 +8,7 @@ const { currentIndex, handleNext, handlePrev } = useSlider(SLIDES_DATA.length);
   const currentSlide = SLIDES_DATA[currentIndex];
   return (
     <main className="w-full flex items-center justify-center bg-white">
-      <div className="md:w-[1094px] mt-[110px]">
+      <div className="md:w-[1094px] mt-[112px]">
         <Viewer data={currentSlide} />
       </div>
       <div className='absolute z-10 bottom-29 right-[524px]'>
