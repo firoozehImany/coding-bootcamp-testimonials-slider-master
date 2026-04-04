@@ -1,5 +1,5 @@
 import { useSlider } from './hooks/useSlider';
-import { SLIDES_DATA } from './constants/Data';
+import { SLIDES_DATA } from './constants/data';
 import Controls from './components/Controls';
 import Viewer from "./components/Viewer";
 
