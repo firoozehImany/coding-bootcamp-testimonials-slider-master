@@ -5,8 +5,8 @@ export default function Details({ data }) {
       <p className="text-[32px] text-text-primary font-light tracking-[1.3px] leading-[44px] w-[640px]">
         “ {feedback} ”
       </p>
-      <div className="flex items-center gap-2 text-[20px] tracking-[0.2px]">
-        <div className="text-text-primary font-bold">{name}</div>
+      <div className="flex items-center gap-2 text-[20px]">
+        <h1 className="text-text-primary font-bold tracking-[0.3px] ">{name}</h1>
         <span className="text-text-secondary">{role}</span>
       </div>
     </article>

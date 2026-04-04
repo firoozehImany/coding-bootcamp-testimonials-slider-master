@@ -9,10 +9,10 @@ const { currentIndex, handleNext, handlePrev } = useSlider(SLIDES_DATA.length);
   const currentSlide = SLIDES_DATA[currentIndex];
   return (
     <main className="w-full flex items-center justify-center">
-      <div className="md:w-[1100px] mt-[113px]">
+      <div className="md:w-[1110px] mt-[113px]">
         <Viewer data={currentSlide} />
       </div>
-      <div className='absolute z-10 bottom-[110px] right-[528px]'>
+      <div className='absolute z-10 bottom-[120px] right-[528px]'>
         <Controls onNext={handleNext} onPrev={handlePrev} />
       </div>
       <div>
