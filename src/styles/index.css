@@ -13,6 +13,22 @@
   }
 }
 
+@keyframes morph-pulse {
+  0%, 100% {
+    transform: scale(1);
+    border-radius: 69% 31% 41% 59% / 76% 50% 30% 24%;
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(-30deg) scale(1.2);
+    opacity: 0.7;
+  }
+}
+
+.animate-morph-pulse {
+  animation: morph-pulse 10s ease-in-out infinite;
+}
+
 @utility icon-mask {
   mask-repeat: no-repeat;
   mask-position: center;
