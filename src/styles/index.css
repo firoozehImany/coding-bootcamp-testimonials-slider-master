@@ -29,6 +29,28 @@
   animation: morph-pulse 10s ease-in-out infinite;
 }
 
+@keyframes slideFromRight {
+  0% { transform: translateX(-100%);
+   opacity: 0;}
+  100% { transform: translateX(0);
+  opacity: 1; }
+}
+
+@keyframes slideFromLeft {
+  0% { transform: translateX(100%);
+  opacity: 0; }
+  100% { transform: translateX(0);
+  opacity: 1; }
+}
+
+.animate-next {
+  animation: slideFromRight 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.animate-prev {
+  animation: slideFromLeft 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
 @utility icon-mask {
   mask-repeat: no-repeat;
   mask-position: center;

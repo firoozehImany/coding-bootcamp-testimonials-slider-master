@@ -1,17 +1,18 @@
 import Details from "./Details";
 import Frame from "./Frame";
 
-export default function Viewer({ data }) {
-  return (
-    <div className="relative flex flex-col md:flex-row items-center justify-end gap-12 md:gap-0">
+export default function Viewer({ data, direction }) {
+  const animationClass = direction === 'next' ? 'animate-next' : 'animate-prev';
 
-      {/* بخش متن - عرض ۵۰ درصد در دسکتاپ */}
-      <div className="absolute left-0 top-[165.5px] flex justify-center md:justify-start z-10">
-        <Details data={data} />
-      </div>
-      {/* بخش تصویر - عرض ۵۰ درصد در دسکتاپ */}
-      <div className="w-[539px] ">
-        <Frame src={data.image} alt={data.name} />
+  return (
+    <div className="relative overflow-hidden w-full">
+      <div className={`flex flex-col md:flex-row items-center justify-end will-change-transform ${animationClass}`}>
+        <div className="absolute left-0 top-[165.5px] z-10">
+          <Details data={data} />
+        </div>
+        <div className="w-[539px]">
+          <Frame src={data.image} alt={data.name} />
+        </div>
       </div>
     </div>
   );
