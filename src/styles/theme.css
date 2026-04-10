@@ -1,10 +1,13 @@
 @theme {
   /* --- Typography & Breakpoints --- */
-  --font-primary: "Inter", sans-serif;;
+  --font-primary: "Inter", sans-serif;
   --breakpoint-mobile: 375px;
   --breakpoint-desktop: 1440px;
 
   /* Colors */
   --color-text-primary: hsl(240, 38%, 20%);
   --color-text-secondary: hsl(240, 18%, 77%);
+  --color-canvas-base: hsl(0, 0%, 100%);
+  --color-light-purple: hsl(233, 60%, 97%);
+  --color-dark-purple: hsl(251, 58%, 59%);
 }
