@@ -1,4 +1,4 @@
-export default function Details({ data }) {
+export default function Content({ data }) {
   const { feedback, name, role } = data;
   return (
     <article className="flex flex-col gap-[35px]">
