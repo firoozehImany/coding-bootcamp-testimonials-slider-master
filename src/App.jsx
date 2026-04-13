@@ -7,7 +7,7 @@ export default function App() {
   const { currentIndex, direction, handleNext, handlePrev } = useSlider(SLIDES_DATA.length);
 
   return (
-    <main className="w-full flex items-center justify-center">
+    <main className="w-full flex items-center justify-center px-20">
       <Slider
         data={SLIDES_DATA[currentIndex]}
         direction={direction}
