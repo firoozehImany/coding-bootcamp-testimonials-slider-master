@@ -7,7 +7,6 @@ export default function SliderContainer({ data, direction, currentIndex }) {
       : direction === "prev"
         ? "animate-prev"
         : "";
-
   return (
     <div
       key={currentIndex}
