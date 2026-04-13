@@ -10,4 +10,5 @@
   --color-canvas-base: hsl(0, 0%, 100%);
   --color-light-purple: hsl(233, 60%, 97%);
   --color-dark-purple: hsl(251, 58%, 59%);
+  --color-shadow: hsl(240, 30%, 32%);
 }
