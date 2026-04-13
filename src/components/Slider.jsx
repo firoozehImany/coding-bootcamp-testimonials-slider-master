@@ -16,7 +16,7 @@ export default function Slider({
         currentIndex={currentIndex}
       />
 
-      <div className="absolute z-10 -bottom-[24px] right-[447px]">
+      <div className="absolute z-10 -bottom-[26px] right-[447px]">
         <Controls onNext={onNext} onPrev={onPrev} />
       </div>
     </div>
