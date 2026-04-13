@@ -4,7 +4,7 @@ export default function Frame({ src, alt }) {
       <img 
         src={src} 
         alt={alt} 
-        className="w-full h-auto rounded-lg shadow-2xl/40 shadow-shadow object-cover aspect-square"
+        className="w-full h-auto rounded-lg shadow-2xl/30 shadow-shadow object-cover aspect-square"
       />
     </div>
   );
