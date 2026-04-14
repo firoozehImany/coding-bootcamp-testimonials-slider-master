@@ -23,7 +23,7 @@ export default function Background() {
           <img
             src="/images/pattern-bg.svg"
             alt=""
-            className="relative z-0 w-fit h-fit"
+            className="relative z-0 w-fit h-fit md:max-w-full max-w-[350px]"
           />
         </div>
         
