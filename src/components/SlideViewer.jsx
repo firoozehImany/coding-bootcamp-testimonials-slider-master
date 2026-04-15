@@ -8,7 +8,7 @@ export default function SliderContainer({ data, direction, currentIndex }) {
         ? "animate-prev"
         : "";
   return (
-    <div key={currentIndex} className={`md:w-[1110px] ${animationClass}`}>
+    <div key={currentIndex} className={`xl:w-[1110px] ${animationClass}`}>
       <Slide data={data} />
     </div>
   );

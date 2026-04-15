@@ -15,11 +15,10 @@ export default function Slider({
         direction={direction}
         currentIndex={currentIndex}
       />
-
       <div
         className="absolute z-20 
-                      top-1/2 left-1/2 -translate-x-1/2 
-                      md:top-auto md:translate-y-0 md:left-auto md:-translate-x-0 md:bottom-[-28px] md:right-[360px]"
+                      top-[45%] left-1/2 -translate-x-1/2 
+                      xl:top-auto xl:translate-y-0 xl:left-auto xl:-translate-x-0 xl:bottom-[-28px] xl:right-[360px]"
       >
         <Controls onNext={onNext} onPrev={onPrev} />
       </div>
